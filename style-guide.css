@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e1624;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #14253d;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-content h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    color: #8bacda;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.price, .creator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.time-left  {
+    display: flex;
+    align-items: center;
+    color:  #8BACD9;; /* Bleu */
+    flex: 1;
+}
+.time-left img {
+    justify-content: space-between; 
+}
+
+ .time-left img, .creator img {
+    width: 15px;
+    margin-right: 10px;
+}
+.price img{
+    width: 10px;
+    margin-right: 10px
+
+}
+
+
+.price span {
+    color: #00FFF8;
+    font-weight: bold;
+}
+.time-left{
+    margin-left: 150px;
+    transform: translateY(-35px);
+}
+
+.creator img {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.creator span {
+    color: #8bacda;
+}
+
+.creator a {
+    color: white;
+    text-decoration: none;
+}
+
+.creator a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #8bacda; /* Crée un trait noir de 2 pixels d'épaisseur */
+    width: 100%; /* Ajuste la largeur à 100% de son conteneur */
+  }
